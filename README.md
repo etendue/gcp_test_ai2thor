@@ -18,7 +18,7 @@ pip install ai2thor
 ```
 
 More details please refer to AI2THOR project [https://github.com/allenai/ai2thor]
-In case for multiple GPUs, please run multiple X-Server for each GPU card. I wrote a blog to describe necessary steps. The link will be added later TODO.
+In case for multiple GPUs, please run multiple X-Server for each GPU card. I wrote a blog [https://medium.com/@etendue2013/how-to-run-ai2-thor-simulation-fast-with-google-cloud-platform-gcp-c9fcde213a4a] to describe necessary steps. 
 
 # Test examples
 ## run multiple instance e.g. 4 in separate processes
@@ -36,4 +36,4 @@ python test.py -mp --num-envs 4 --gpus 2
 python test.py --num-envs 4
 ```
 
-Please see bench result in my blog.TODO: add link
+Please see bench result in my blog.
